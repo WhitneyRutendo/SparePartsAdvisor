@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dbd7d4"
+    tools:context=".RegistrationForm">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        android:maxLength="30"
+        android:text="@string/fullname" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nameEditText"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="@string/characters_a_z"
+        android:inputType="textPersonName"
+        android:text="@string/create_username" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nameEditText"
+        android:layout_marginTop="123dp"
+        android:ems="10"
+        android:hint="@string/something_someone_com"
+        android:inputType="textEmailAddress"
+        android:text="@string/enter_your_email_address" />
+
+    <EditText
+        android:id="@+id/farmeridEditText"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nameEditText"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:hint="@string/mobile_number"
+        android:inputType="phone"
+        android:text="@string/enter_your_id" />
+
+
+    <Button
+        android:id="@+id/registrationButton"
+        android:layout_width="201dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="231dp"
+        android:layout_marginStart="49dp"
+        android:text="@string/click_here_to_register" />
+
+    <Button
+        android:id="@+id/catalogueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="103dp"
+        android:layout_marginStart="102dp"
+        android:text="@string/catalogue" />
+
+</RelativeLayout>

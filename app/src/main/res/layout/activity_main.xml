@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/sparepartsadvisor"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/memberTextView"
+        android:layout_marginTop="-149dp"
+        android:text="@string/register"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/memberTextView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="149dp"
+        android:text="@string/new_member"
+        android:textColor="#209b14" />
+
+    <TextView
+        android:id="@+id/alreadymemberTextView"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginButton"
+        android:layout_alignStart="@+id/loginButton"
+        android:text="@string/already_a_member"
+        android:layout_alignLeft="@+id/loginButton" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="364dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/welcomeTextView"
+        app:srcCompat="@drawable/implements3"
+        android:contentDescription="@string/picture" />
+
+</RelativeLayout>

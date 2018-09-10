@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Spare Parts Advisor</string>
+
+
+    <string name="todo">TODO</string>
+    <string name="sparepartsadvisor">SparePartsAdvisor</string>
+    <string name="login">LogIn</string>
+    <string name="new_member">New Member?</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="register">Register</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="create_username">Create Username</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="fullname">FullName</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="click_here_to_register">Click here to register</string>
+    <string name="full_name">full name</string>
+    <string name="characters_a_z">characters a-z</string>
+    <string name="something_someone_com">something@someone.com</string>
+    <string name="mobile_number">mobile number</string>
+    <string name="tick_where_appropriate">tick where appropriate</string>
+    <string name="username">Username</string>
+    <string name="click_here_to_login">Click here to login</string>
+    <string name="spareparts">Spareparts</string>
+    <string name="franchises">franchises</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="image">Image </string>
+    <string name="textview">TextView</string>
+    <string name="txt">TextView</string>
+    <string name="text">TextView</string>
+    <string name="Todo">TODO</string>
+    <string name="catalogue">Catalogue</string>
+    <string name="enter_your_id">enter your id</string>
+    <string name="toDo">TODO</string>
+    <string name="picture">TODO</string>
+
+
+
+
+</resources>
